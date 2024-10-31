@@ -2,11 +2,36 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   height: 500vh;
   position: relative
 }
+
 .bottom {
   position: abs;
-  bottom: 10px;
+  bottom: 100px;
+}
+
+.platform {
+  text-decoration: underline;
+}
+
+.HoverChange {
+  color: red;
+}
+
+.myClass {
+  color: black;
+  display: inline;
+  transition: 0.5s ease;
+  background: rgb(25, 78, 178)
+}
+
+.myClass:hover {
+  padding-left: 120px;
+}
+
+myclass:active {
+  color: blue;
 }
